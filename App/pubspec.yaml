@@ -1,0 +1,134 @@
+name: taxibooking
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+
+  # TOAST
+  fluttertoast: ^8.1.2
+
+  # IMAGE
+  cached_network_image: ^3.2.3
+
+  # BASE
+  intl: ^0.18.0
+  google_fonts: ^3.0.1
+  html: ^0.15.1
+  shared_preferences: ^2.0.16
+  flutter_widget_from_html: ^0.9.1
+
+  # UI
+  sliding_up_panel: ^2.0.0+1
+  dotted_line: ^3.1.0
+  lottie: ^2.2.0
+  flutter_rating_bar: ^4.0.1
+  flutter_staggered_animations: ^1.1.1
+  bottom_picker: ^2.0.1
+  country_code_picker: ^2.0.2
+  flutter_native_contact_picker: ^0.0.3
+  dotted_border: ^2.0.0+3
+  flutter_countdown_timer: ^4.1.0
+  timeline_tile: ^2.0.0
+  flutter_vector_icons: ^2.0.0
+
+  #OTP TEXTFIELD
+  otp_text_field: ^1.1.3
+
+  # MAP
+  geolocator: ^9.0.2
+  geocoding: ^2.0.5
+  google_maps_flutter: ^2.2.3
+  flutter_polyline_points: ^1.0.0
+  google_maps_place_picker_mb: ^3.0.0
+
+  # IMAGES
+  image_picker: ^0.8.6
+  file_picker: ^5.2.5
+
+  # CONNECTIVITY
+  package_info_plus: ^3.0.2
+
+  # CONNECTIVITY
+  http: ^0.13.5
+  connectivity_plus: ^3.0.2
+  url_launcher: ^6.1.7
+
+  #FIREBASE
+  firebase_crashlytics: ^3.0.10
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.5
+  firebase_storage: ^11.0.10
+  firebase_database: ^10.0.9
+  paginate_firestore: ^1.0.3+1
+  cloud_firestore: ^4.3.1
+
+  # STATE MANAGEMENT
+  mobx: ^2.1.3
+  flutter_mobx: ^2.0.6+5
+
+  # Payment gateway
+  razorpay_flutter: ^1.3.4
+  flutter_stripe: ^3.0.0
+  flutter_paystack: ^1.0.7
+  flutter_braintree: ^2.3.1
+  flutterwave_standard: ^1.0.6
+  flutter_paytabs_bridge: ^2.3.2
+  mercado_pago_mobile_checkout: ^0.2.0-dev.3
+  my_fatoorah: ^3.1.0
+  paytm: ^3.0.1
+
+  # PUSH NOTIFICATION
+  onesignal_flutter: ^3.5.0
+
+  # MQTT
+  mqtt_client: ^9.7.4
+
+  # Social Login
+  google_sign_in: ^5.4.3
+
+  # DOWNLOAD INVOICE PDF
+  pdf: ^3.8.4
+  path_provider: ^2.0.11
+  open_file: ^3.2.1
+  printing: ^5.9.3
+
+  #SMS
+  flutter_sms: ^2.3.3
+
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.3.3
+  mobx_codegen: ^2.1.1
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+dependency_overrides:
+  firebase_core_platform_interface: ^4.5.2
+  package_info_plus: ^3.0.2
+  intl: ^0.18.0
+  ffi: ^2.0.1
+  cloud_firestore: ^4.3.1
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+    - images/flag/
+    - images/icons/
